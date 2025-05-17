@@ -1,0 +1,28 @@
+Version:
+node --version
+ng --version
+
+Angular CLI Version:
+ng version
+
+Install Uninstall Angular CLI:
+npm uninstall -g @angular/cli
+npm install -g @angular/cli@latest
+
+Create new project:
+ng new project-name
+
+Build the project:
+ng build
+npm run build
+
+Run the project:
+ng serve
+npm start
+
+Run the project launch browser:
+ng serve --open
+
+Powershell execution policy:
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
